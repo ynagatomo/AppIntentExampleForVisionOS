@@ -6,25 +6,22 @@
 //
 
 import SwiftUI
-import RealityKit
-import RealityKitContent
 
 struct ContentView: View {
+    @Environment(AppModel.self) private var appModel
 
     var body: some View {
         VStack {
-            Model3D(named: "Scene", bundle: realityKitContentBundle)
-                .padding(.bottom, 50)
-
-            Text("Hello, world!")
-
-            ToggleImmersiveSpaceButton()
+            switch appModel.showingView {
+            case .menu: MenuView()
+            case .scene(let property):
+                ModelContentView(sceneProperty: property)
+            }
         }
-        .padding()
     }
 }
 
-#Preview(windowStyle: .automatic) {
+#Preview {
     ContentView()
         .environment(AppModel())
 }

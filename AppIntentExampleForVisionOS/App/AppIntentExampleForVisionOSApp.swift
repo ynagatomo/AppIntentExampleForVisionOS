@@ -17,17 +17,13 @@ struct AppIntentExampleForVisionOSApp: App {
             ContentView()
                 .environment(appModel)
         }
+        .windowStyle(.plain)
+        .windowResizability(.contentSize)
 
-        ImmersiveSpace(id: appModel.immersiveSpaceID) {
-            ImmersiveView()
+        WindowGroup(id: "ModelView", for: String.self) { $sceneName in
+            ModelView(sceneName: sceneName ?? "ToyRobot")
                 .environment(appModel)
-                .onAppear {
-                    appModel.immersiveSpaceState = .open
-                }
-                .onDisappear {
-                    appModel.immersiveSpaceState = .closed
-                }
         }
-        .immersionStyle(selection: .constant(.mixed), in: .mixed)
+        .windowStyle(.volumetric)
      }
 }
