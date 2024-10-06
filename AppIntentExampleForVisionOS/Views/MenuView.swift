@@ -21,11 +21,11 @@ struct MenuView: View {
                 Text("Let' say")
                     .font(.title)
                     .padding(4)
-                Text("\"Hey Siri! Show a Toy Robot with AppIntentExampleForVisionOS\"")
+                Text("\"Hey Siri! Display the Toy Robot with AppIntentExampleForVisionOS\"")
                     .font(.title)
                     .padding(4)
                 Text("or")
-                Text("\"Hey Siri! Show a Toy Car with AppIntentExampleForVisionOS\"")
+                Text("\"Hey Siri! Display the Toy Car with AppIntentExampleForVisionOS\"")
                     .font(.title)
                     .padding(4)
             }

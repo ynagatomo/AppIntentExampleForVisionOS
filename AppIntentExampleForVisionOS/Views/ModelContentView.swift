@@ -26,7 +26,7 @@ struct ModelContentView: View {
 
                 Spacer()
             } // HStack
-            .padding(40)
+            .padding(.leading, 40)
 
             Text(sceneProperty.name)
                 .font(.largeTitle)
@@ -34,17 +34,25 @@ struct ModelContentView: View {
 
             ItemView(imageName: sceneProperty.imageName,
                      sceneName: sceneProperty.sceneName)
-            Spacer()
+
+            Button(action: {
+                openModelView(sceneName: sceneProperty.sceneName)
+            }, label: {
+                Text("Display Model")
+                    .font(.title)
+                    .padding(20)
+            })
         } // VStack
+        .padding(20)
         .frame(width: 600, height: 600)
         .overlay {
             RoundedRectangle(cornerRadius: 20)
                 .stroke(style: StrokeStyle(lineWidth: 5))
                 .frame(width: 600 - 5, height: 600 - 5)
         }
-        .onAppear {
-            openModelView(sceneName: sceneProperty.sceneName)
-        }
+        // .onAppear {
+        //    openModelView(sceneName: sceneProperty.sceneName)
+        // }
     }
 
     private func openModelView(sceneName: String) {
