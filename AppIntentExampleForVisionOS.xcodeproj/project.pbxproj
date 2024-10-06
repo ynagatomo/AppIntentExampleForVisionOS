@@ -20,6 +20,9 @@
 		BA64D5232CB225CC0033CDF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64D5222CB225CC0033CDF5 /* ContentView.swift */; };
 		BA64D5252CB227350033CDF5 /* ModelContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64D5242CB227350033CDF5 /* ModelContentView.swift */; };
 		BA64D5272CB22D160033CDF5 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64D5262CB22D160033CDF5 /* ItemView.swift */; };
+		BA64D52A2CB237E20033CDF5 /* ShowModelIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64D5292CB237E20033CDF5 /* ShowModelIntent.swift */; };
+		BA64D52C2CB238CC0033CDF5 /* ModelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64D52B2CB238CC0033CDF5 /* ModelObject.swift */; };
+		BA64D52E2CB23C7D0033CDF5 /* Shortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64D52D2CB23C7D0033CDF5 /* Shortcuts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +42,9 @@
 		BA64D5222CB225CC0033CDF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA64D5242CB227350033CDF5 /* ModelContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelContentView.swift; sourceTree = "<group>"; };
 		BA64D5262CB22D160033CDF5 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		BA64D5292CB237E20033CDF5 /* ShowModelIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowModelIntent.swift; sourceTree = "<group>"; };
+		BA64D52B2CB238CC0033CDF5 /* ModelObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelObject.swift; sourceTree = "<group>"; };
+		BA64D52D2CB23C7D0033CDF5 /* Shortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shortcuts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,7 @@
 		BA64D50E2CB2001F0033CDF5 /* AppIntentExampleForVisionOS */ = {
 			isa = PBXGroup;
 			children = (
+				BA64D5282CB237C70033CDF5 /* AppIntents */,
 				BA64D5172CB200A30033CDF5 /* App */,
 				BA64D5182CB200AE0033CDF5 /* AppModel */,
 				BA64D5192CB200C10033CDF5 /* Views */,
@@ -153,6 +160,16 @@
 				BA64D50B2CB2001F0033CDF5 /* ImmersiveView.swift */,
 			);
 			path = NotUsed;
+			sourceTree = "<group>";
+		};
+		BA64D5282CB237C70033CDF5 /* AppIntents */ = {
+			isa = PBXGroup;
+			children = (
+				BA64D5292CB237E20033CDF5 /* ShowModelIntent.swift */,
+				BA64D52B2CB238CC0033CDF5 /* ModelObject.swift */,
+				BA64D52D2CB23C7D0033CDF5 /* Shortcuts.swift */,
+			);
+			path = AppIntents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +271,9 @@
 				BA64D50F2CB2001F0033CDF5 /* AppIntentExampleForVisionOSApp.swift in Sources */,
 				BA64D51D2CB201060033CDF5 /* Logger.swift in Sources */,
 				BA64D5252CB227350033CDF5 /* ModelContentView.swift in Sources */,
+				BA64D52E2CB23C7D0033CDF5 /* Shortcuts.swift in Sources */,
+				BA64D52A2CB237E20033CDF5 /* ShowModelIntent.swift in Sources */,
+				BA64D52C2CB238CC0033CDF5 /* ModelObject.swift in Sources */,
 				BA64D5272CB22D160033CDF5 /* ItemView.swift in Sources */,
 				BA64D5232CB225CC0033CDF5 /* ContentView.swift in Sources */,
 				BA64D5102CB2001F0033CDF5 /* AppModel.swift in Sources */,
