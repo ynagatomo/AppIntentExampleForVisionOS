@@ -11,8 +11,6 @@
 		BA64D50F2CB2001F0033CDF5 /* AppIntentExampleForVisionOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64D5072CB2001F0033CDF5 /* AppIntentExampleForVisionOSApp.swift */; };
 		BA64D5102CB2001F0033CDF5 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64D5082CB2001F0033CDF5 /* AppModel.swift */; };
 		BA64D5112CB2001F0033CDF5 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64D50A2CB2001F0033CDF5 /* MenuView.swift */; };
-		BA64D5122CB2001F0033CDF5 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64D50B2CB2001F0033CDF5 /* ImmersiveView.swift */; };
-		BA64D5132CB2001F0033CDF5 /* ToggleImmersiveSpaceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64D50D2CB2001F0033CDF5 /* ToggleImmersiveSpaceButton.swift */; };
 		BA64D5142CB2001F0033CDF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA64D5052CB2001F0033CDF5 /* Preview Assets.xcassets */; };
 		BA64D5152CB2001F0033CDF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA64D5092CB2001F0033CDF5 /* Assets.xcassets */; };
 		BA64D51D2CB201060033CDF5 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA64D51C2CB201060033CDF5 /* Logger.swift */; };
@@ -33,9 +31,7 @@
 		BA64D5082CB2001F0033CDF5 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		BA64D5092CB2001F0033CDF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA64D50A2CB2001F0033CDF5 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
-		BA64D50B2CB2001F0033CDF5 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
 		BA64D50C2CB2001F0033CDF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA64D50D2CB2001F0033CDF5 /* ToggleImmersiveSpaceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleImmersiveSpaceButton.swift; sourceTree = "<group>"; };
 		BA64D51C2CB201060033CDF5 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		BA64D51E2CB203370033CDF5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BA64D5202CB21B9C0033CDF5 /* ModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
@@ -132,7 +128,6 @@
 				BA64D5262CB22D160033CDF5 /* ItemView.swift */,
 				BA64D5242CB227350033CDF5 /* ModelContentView.swift */,
 				BA64D5202CB21B9C0033CDF5 /* ModelView.swift */,
-				BA64D51F2CB209030033CDF5 /* NotUsed */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -151,15 +146,6 @@
 				BA64D51C2CB201060033CDF5 /* Logger.swift */,
 			);
 			path = Logger;
-			sourceTree = "<group>";
-		};
-		BA64D51F2CB209030033CDF5 /* NotUsed */ = {
-			isa = PBXGroup;
-			children = (
-				BA64D50D2CB2001F0033CDF5 /* ToggleImmersiveSpaceButton.swift */,
-				BA64D50B2CB2001F0033CDF5 /* ImmersiveView.swift */,
-			);
-			path = NotUsed;
 			sourceTree = "<group>";
 		};
 		BA64D5282CB237C70033CDF5 /* AppIntents */ = {
@@ -278,9 +264,7 @@
 				BA64D5232CB225CC0033CDF5 /* ContentView.swift in Sources */,
 				BA64D5102CB2001F0033CDF5 /* AppModel.swift in Sources */,
 				BA64D5112CB2001F0033CDF5 /* MenuView.swift in Sources */,
-				BA64D5122CB2001F0033CDF5 /* ImmersiveView.swift in Sources */,
 				BA64D5212CB21B9C0033CDF5 /* ModelView.swift in Sources */,
-				BA64D5132CB2001F0033CDF5 /* ToggleImmersiveSpaceButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
