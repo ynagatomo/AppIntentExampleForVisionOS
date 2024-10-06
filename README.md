@@ -9,6 +9,8 @@ A sample project that shows an example of use of AppIntent in visionOS.
 You can display 3D models such as toy robots and toy cars using your voice through Siri.
 Siri works with custom App Intents defined by your app to expose the functionality your app provides to users.
 
+![Image](Assets/appintent720.gif)
+
 This sample app exposes the function to select and display 3D Models using App Intents.
 
 You can select a 3D model or instruct Siri to present options by saying the following to Siri:
@@ -26,6 +28,12 @@ App Intents published by apps can also be executed from the Shortcut app. This i
 
 ![Image](Assets/ss3_1600.jpg)
 
+## Consideration
+
+This sample project uses fixed keywords/options, 'Toy car' and 'Toy robot', to present a simple example.
+By implementing ```DynamicOptionProvider```, it is also possible to handle dynamic keywords/options.
+
+![Image](Assets/ss4_1600.jpg)
 
 <!--
 <blockquote>
